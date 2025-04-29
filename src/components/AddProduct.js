@@ -33,6 +33,7 @@ const AddProduct = () => {
         backgroundColor: 'background.paper',
         borderRadius: 2,
         boxShadow: 3,
+        maxWidth: 400,
       }}
     >
       <TextField

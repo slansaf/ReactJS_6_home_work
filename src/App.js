@@ -8,7 +8,7 @@ import EditProduct from './components/EditProduct';
 const App = () => {
   return (
     <Provider store={store}>
-      <div>
+      <div className='center'>
         <h1>Product Catalog</h1>
         <AddProduct />
         <ProductList />
